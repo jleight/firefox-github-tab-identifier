@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "GitHub Tab Identifier",
+  "description": "Adds identifiers to GitHub tabs matching certain users and organizations.",
+  "version": "1.0",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "update_url": "https://raw.githubusercontent.com/jleight/firefox-github-tab-identifier/master/updates.json"
+    }
+  },
+
+  "permissions": [
+    "tabs",
+    "*://github.com/*"
+  ],
+
+  "background": {
+    "scripts": ["index.js"]
+  }
+}
