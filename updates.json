@@ -6,6 +6,11 @@
           "version": "1.0",
           "update_link": "https://raw.githubusercontent.com/jleight/firefox-github-tab-identifier/master/dist/github_tab_identifier-1.0.xpi",
           "update_hash": "sha256:46f422b1a7db78822bcb74d9645736a52df9387578ba1ecf494a9fbdafa6df80"
+        },
+        {
+          "version": "1.1",
+          "update_link": "https://raw.githubusercontent.com/jleight/firefox-github-tab-identifier/master/dist/github_tab_identifier-1.1.xpi",
+          "update_hash": "sha256:5981a1ef24648701f193a99c32a652ca91f6f710565faa10a84a775a1cfc7e74"
         }
       ]
     }

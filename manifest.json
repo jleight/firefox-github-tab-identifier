@@ -3,7 +3,7 @@
 
   "name": "GitHub Tab Identifier",
   "description": "Adds identifiers to GitHub tabs matching certain users and organizations.",
-  "version": "1.0",
+  "version": "1.1",
 
   "browser_specific_settings": {
     "gecko": {
