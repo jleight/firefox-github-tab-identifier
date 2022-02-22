@@ -1,3 +1,13 @@
 {
-  "addons": {}
+  "addons": {
+    "{d7295785-0f4f-408a-bdce-875f984c27b1}": {
+      "updates": [
+        {
+          "version": "1.0",
+          "update_link": "https://raw.githubusercontent.com/jleight/firefox-github-tab-identifier/master/dist/github_tab_identifier-1.0.xpi",
+          "update_hash": "sha256:46f422b1a7db78822bcb74d9645736a52df9387578ba1ecf494a9fbdafa6df80"
+        }
+      ]
+    }
+  }
 }
