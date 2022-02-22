@@ -13,10 +13,10 @@ const setTitle = (tab) => {
   });
 };
 
-const allTabs = browser.tabs.query({}).then((tabs) => {
-  tabs.forEach(setTitle);
-});
-
 browser.tabs.onUpdated.addListener((id, changeInfo, tab) => {
   setTitle(tab);
+});
+
+const allTabs = browser.tabs.query({}).then((tabs) => {
+  tabs.forEach(setTitle);
 });
